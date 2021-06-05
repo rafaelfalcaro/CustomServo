@@ -1,0 +1,6 @@
+CustomServo	KEYWORD1
+
+Home	KEYWORD2
+MoveInc	KEYWORD2
+MoveTo	KEYWORD2
+SetPin	KEYWORD2
