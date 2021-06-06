@@ -4,7 +4,7 @@
 #include "Arduino.h"
 #include "Servo.h"
 
-// Definição das constantes
+// Definições das constantes
 #define MAXVEL 1                            // Velocidade máxima do Servo [ms]
 #define MINVEL 20                           // Velocidade mínima do Servo [ms]
 
@@ -13,8 +13,8 @@ class CustomServo {
     public:
         // Funções
         void Home();                        // Movimento automático até a posição de Home
-        void MoveInc(int _pos);             // Movimento incremental do Servo
-        void MoveTo(int _pos);              // Movimento absoluto do Servo
+        void MoveInc(int _pos);             // Movimento incremental
+        void MoveTo(int _pos);              // Movimento absoluto
         void SetPin(byte _pin);             // Definição do pino da placa que controle o Servo
 
         // Objeto da biblioteca Servo
