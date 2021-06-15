@@ -21,6 +21,7 @@ class CustomServo {
         Servo servo;
 
         // Parametrização do Servo Motor
+        byte Dir;                           // Sentido de Giro: 0->CW / 1->CCW
         byte HomeOffset;                    // Offset de posição do Servo [°]
         byte JogSpeed;                      // Setpoint de velocidade de movimento do Servo [1-100%]
         byte JogTa;                         // Tempo de aceleração do Servo [s]
